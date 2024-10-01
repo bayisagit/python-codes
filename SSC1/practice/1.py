@@ -1,0 +1,6 @@
+name = input("my name ")
+age = input("my age ")
+grade = input("my grade ")
+sex = input("my sex ")
+id = input("my ID ")
+print(name, age, grade, sex, id)
