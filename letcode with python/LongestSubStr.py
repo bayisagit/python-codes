@@ -5,7 +5,7 @@ left=0
 right=1
 for i in range(len(s)):
     if s[i] in st:
-        st = st[1:]
+        st = st[left:]
         left += 1
     st += s[i]
     ms=max(ms,i-left+1)
